@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Ecommerce With Jaweria</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Top Accent Bar -->
+  <div class="top-bar"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <div class="container nav-container">
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+
+      <a href="#home" class="logo">
+        <span class="logo-sub">e-commerce</span>
+        <span class="logo-main">WITH <strong>JAWERIA</strong></span>
+        <div class="logo-smile"></div>
+      </a>
+
+      <div class="nav-right">
+        <a href="#contact" class="btn-talk">Let's Talk</a>
+        <div class="social-icons">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <div class="pill-badge">
+          <i class="fas fa-sparkles"></i> Meet The Founder
+        </div>
+
+        <h1 class="hero-title">
+          Build An E-Commerce Business That Goes Beyond Sales.
+        </h1>
+
+        <p class="hero-description">
+          From launching your first store to scaling an established brand, get practical guidance built around your
+          goals, challenges, and next opportunities.
+        </p>
+
+        <a href="#contact" class="btn-orange">
+          Discuss Your Business With Jaweria
+        </a>
+      </div>
+
+      <div class="hero-image-wrapper">
+        <div class="hero-image-card">
+          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop"
+            alt="Jaweria - Founder">
+          <div class="image-overlay"></div>
+          <div class="license-plate">
+            <span>JW 1</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="about" class="team-section">
+    <div class="container">
+      <div class="section-badge">MEET THE TEAM</div>
+
+      <h2 class="section-title">
+        Experts Behind Your E-Commerce Growth
+      </h2>
+
+      <p class="section-subtitle">
+        Practical marketplace experience, focused guidance and specialist support at every stage.
+      </p>
+
+      <div class="team-grid">
+        <!-- Team Card 1 -->
+        <div class="team-card">
+          <div class="team-header">
+            <h3>Jaweria</h3>
+            <i class="fas fa-circle-check verified-badge"></i>
+          </div>
+          <p class="team-role">Founder & Lead E-Commerce Consultant</p>
+        </div>
+
+        <!-- Team Card 2 -->
+        <div class="team-card">
+          <div class="team-header">
+            <h3>Muneeb</h3>
+            <i class="fas fa-circle-check verified-badge"></i>
+          </div>
+          <p class="team-role">Senior E-Commerce Mentor</p>
+        </div>
+
+        <!-- Team Card 3 -->
+        <div class="team-card">
+          <div class="team-header">
+            <h3>Taha</h3>
+            <i class="fas fa-circle-check verified-badge"></i>
+          </div>
+          <p class="team-role">Assistant E-Commerce Mentor</p>
+        </div>
+
+        <!-- Team Card 4 -->
+        <div class="team-card">
+          <div class="team-header">
+            <h3>Shayan</h3>
+            <i class="fas fa-circle-check verified-badge"></i>
+          </div>
+          <p class="team-role">Amazon Marketplace expert</p>
+        </div>
+
+        <!-- Team Card 5 -->
+        <div class="team-card">
+          <div class="team-header">
+            <h3>Hassan</h3>
+            <i class="fas fa-circle-check verified-badge"></i>
+          </div>
+          <p class="team-role">Ebay marketplace Expert</p>
+        </div>
+
+        <!-- Team Card 6 -->
+        <div class="team-card">
+          <div class="team-header">
+            <h3>Fakhir</h3>
+            <i class="fas fa-circle-check verified-badge"></i>
+          </div>
+          <p class="team-role"></p>
+        </div>
+
+        <!-- Team Card 7 -->
+        <div class="team-card">
+          <div class="team-header">
+            <h3>Sofia</h3>
+            <i class="fas fa-circle-check verified-badge"></i>
+          </div>
+          <p class="team-role">Social Media Manager</p>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Column 1: Brand & Modern Box -->
+        <div class="footer-col">
+          <div class="footer-brand">
+            <span class="white-text">Ecommerce</span> <span class="orange-text">With Jaweria</span>
+          </div>
+          <p class="footer-desc">
+            Practical guidance for building, managing and scaling modern e-commerce businesses.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Instagram">ig</a>
+            <a href="#" aria-label="TikTok">tt</a>
+            <a href="#" aria-label="YouTube">yt</a>
+          </div>
+
+          <div class="cta-box">
+            <span class="cta-tag">LET'S WORK TOGETHER</span>
+            <h4>Ready To Grow Online?</h4>
+            <a href="#contact" class="cta-link">Start a Conversation</a>
+          </div>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Popular Services -->
+        <div id="services" class="footer-col">
+          <h4 class="footer-heading">Popular Services</h4>
+          <ul class="footer-links">
+            <li><a href="#">USA Company Services</a></li>
+            <li><a href="#">Amazon Services</a></li>
+            <li><a href="#">Walmart Services</a></li>
+            <li><a href="#">Payment Gateways</a></li>
+            <li><a href="#">Digital Marketing</a></li>
+            <li><a href="#">Shopify and Websites</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Info -->
+        <div class="footer-col">
+          <h4 class="footer-heading">Contact</h4>
+          <address class="contact-info">
+            392 Wafaqi Colony Rd, Johar Town, Lahore, 54000<br><br>
+            <a href="mailto:info@ecommercewithjaweria.com">jaweriakhanzada24@gmail.com</a><br>
+            <a href="tel:03002502959">+92 324 2388979</a><br><br>
+            4:00 PM to 10:00 PM PKT
+          </address>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom Bar -->
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2026 Ecommerce With Jaweria. All rights reserved.
+        </p>
+        <p class="insights">Insights and Updates</p>
+      </div>
+
+      <!-- Back To Top Button -->
+      <div class="back-to-top" id="backToTop">
+        <span class="back-title">Back To Top</span>
+        <div class="arrow-btn">
+          <i class="fas fa-arrow-up"></i>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
+/* --- Base Styles & Variables --- */
+:root {
+  --bg-color: #0b0c10;
+  --card-bg: #12141a;
+  --text-main: #ffffff;
+  --text-muted: #9aa0a6;
+  --accent-orange: #f58220;
+  --accent-orange-hover: #e07210;
+  --border-color: #1e222d;
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: var(--font-family);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* --- Top Bar --- */
+.top-bar {
+  height: 3px;
+  background-color: var(--accent-orange);
+  width: 100%;
+}
+
+/* --- Header & Navigation --- */
+header {
+  padding: 24px 0;
+  background-color: rgba(11, 12, 16, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-links a {
+  color: #c5c6c7;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  color: var(--text-main);
+}
+
+/* Logo Styling */
+.logo {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.logo-sub {
+  font-size: 0.65rem;
+  letter-spacing: 2px;
+  color: #a0a0a0;
+  text-transform: lowercase;
+  border: 1px solid #333;
+  padding: 1px 6px;
+  border-radius: 2px;
+}
+
+.logo-main {
+  font-size: 1.4rem;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-top: -2px;
+}
+
+.logo-main strong {
+  font-weight: 900;
+}
+
+.logo-smile {
+  width: 100%;
+  height: 8px;
+  border-bottom: 2px solid var(--accent-orange);
+  border-radius: 0 0 50% 50%;
+  margin-top: -4px;
+}
+
+/* Right Nav Buttons & Socials */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn-talk {
+  border: 1px solid var(--accent-orange);
+  color: var(--accent-orange);
+  padding: 8px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-talk:hover {
+  background-color: var(--accent-orange);
+  color: #fff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  color: #888;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: var(--text-main);
+}
+
+/* --- Hero Section --- */
+.hero-section {
+  padding: 80px 0 100px 0;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.pill-badge {
+  display: inline-block;
+  border: 1px solid #333;
+  color: var(--accent-orange);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-size: 0.85rem;
+  margin-bottom: 24px;
+}
+
+.hero-title {
+  font-size: 3.2rem;
+  line-height: 1.15;
+  font-weight: 700;
+  margin-bottom: 24px;
+  letter-spacing: -0.5px;
+}
+
+.hero-description {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 40px;
+  max-width: 500px;
+}
+
+.btn-orange {
+  display: inline-block;
+  background-color: var(--accent-orange);
+  color: #000;
+  font-weight: 700;
+  padding: 16px 32px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background 0.3s;
+}
+
+.btn-orange:hover {
+  background-color: var(--accent-orange-hover);
+}
+
+/* Hero Image Card */
+.hero-image-wrapper {
+  position: relative;
+}
+
+.hero-image-card {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+  border: 1px solid #222;
+  height: 480px;
+}
+
+.hero-image-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.85);
+}
+
+.license-plate {
+  position: absolute;
+  bottom: 25%;
+  left: 10%;
+  background-color: #f0f0f0;
+  color: #111;
+  border: 2px solid #333;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+/* --- Team Section --- */
+.team-section {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.section-badge {
+  color: var(--accent-orange);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.team-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 40px 30px;
+  border-radius: 40px;
+  text-align: left;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  border-color: #333;
+}
+
+.team-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.team-header h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.verified-badge {
+  color: var(--accent-orange);
+  font-size: 1rem;
+}
+
+.team-role {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* --- Footer --- */
+.footer {
+  padding: 80px 0 40px 0;
+  border-top: 1px solid var(--border-color);
+  background-color: #07080a;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr;
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.footer-brand {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.white-text { color: #fff; }
+.orange-text { color: var(--accent-orange); }
+
+.footer-desc {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.footer-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 1px solid #222;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.cta-box {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.cta-tag {
+  color: var(--accent-orange);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.cta-box h4 {
+  font-size: 1.1rem;
+  margin: 8px 0 16px 0;
+}
+
+.cta-link {
+  color: #fff;
+  font-size: 0.85rem;
+  text-decoration: underline;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.footer-links {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.contact-info {
+  font-style: normal;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.contact-info a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  border-top: 1px solid #151821;
+  color: #555;
+  font-size: 0.85rem;
+}
+
+/* Back To Top Section */
+.back-to-top {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.back-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+.arrow-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1a1d24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  transition: background 0.3s;
+}
+
+.back-to-top:hover .arrow-btn {
+  background-color: var(--accent-orange);
+}
+
+/* --- Responsive Media Queries --- */
+@media (max-width: 992px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero-title {
+    font-size: 2.4rem;
+  }
+  .nav-links {
+    display: none; /* Hide for simple mobile layout */
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .back-title {
+    font-size: 2rem;
+  }
+}
+document.addEventListener("DOMContentLoaded", function () {
+  // Smooth scroll to top on "Back To Top" click
+  const backToTopBtn = document.getElementById("backToTop");
+
+  if (backToTopBtn) {
+    backToTopBtn.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+      });
+    });
+  }
+
+  // Active navigation highlight on scroll
+  const sections = document.querySelectorAll("section, footer");
+  const navLinks = document.querySelectorAll(".nav-links a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop;
+      const sectionHeight = section.clientHeight;
+      if (pageYOffset >= sectionTop - 150) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${current}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+});
